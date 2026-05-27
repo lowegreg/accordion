@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "accordion/item",
+	"version": "1.0.0",
+	"title": "Accordion Item",
+	"category": "widgets",
+	"icon": "excerpt-view",
+	"description": "A single accordion item with a title and nested content blocks.",
+	"parent": ["accordion/accordion"],
+	"keywords": ["accordion", "toggle", "faq"],
+	"textdomain": "accordion",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Accordion Item"
+		},
+		"startOpen": {
+			"type": "boolean",
+			"default": false
+		},
+		"uniqueId": {
+			"type": "string",
+			"default": ""
+		},
+		"titleIconClass": {
+			"type": "string",
+			"default": ""
+		},
+		"titleIconPosition": {
+			"type": "string",
+			"default": "left"
+		}
+	},
+	"supports": {
+		"html": false,
+		"reusable": false
+	},
+	"editorScript": "accordion-editor",
+	"editorStyle": "accordion-editor",
+	"style": "accordion-frontend"
+}

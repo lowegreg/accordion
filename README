@@ -1,0 +1,42 @@
+=== Accordion ===
+Contributors: lowegreg
+Tags: accordion, block, faq, toggle
+Requires at least: 6.4
+Tested up to: 7.0
+Stable tag: 1.0.0
+Requires PHP: 8.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+A lightweight accordion block plugin with nested block content.
+
+== Description ==
+
+Accordion provides a lean parent/child accordion block setup for Gutenberg.
+
+This scaffold is built for WordPress 7.0 with Block API v3.
+
+Features in this initial scaffold:
+
+* Accordion parent block
+* Accordion item child block
+* Nested inner block content inside each item
+* Single-open or multi-open behavior
+* Per-item default open state
+* Font Awesome title icon class support with left or right positioning
+* Minimal theme-friendly frontend styling
+
+Font Awesome is not bundled by this plugin. The icon class field assumes Font Awesome is already loaded by the active theme or another plugin.
+
+== Installation ==
+
+1. Upload the plugin folder to `/wp-content/plugins/`.
+2. Activate the plugin.
+3. Insert the `Accordion` block and add `Accordion Item` children.
+
+== Changelog ==
+
+= 1.0.0 =
+* Initial WPBP-style scaffold with a basic accordion block foundation.
+* Built for WordPress 7.0 using Block API v3.
+* Added Font Awesome title icon support for accordion items.

@@ -46,3 +46,14 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files
+*.log
+
+# ignore hidden files except this file
+.*
+!/.gitignore
+!/.gitattributes

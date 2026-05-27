@@ -1,0 +1,33 @@
+.accordion-editor--accordion {
+	border: 1px solid #d0d7de;
+	border-radius: 6px;
+	padding: 1rem;
+	background: #fff;
+}
+
+.accordion-editor--item {
+	border: 1px solid #d0d7de;
+	border-radius: 6px;
+	background: #f8fafc;
+	margin-bottom: 0.75rem;
+	overflow: hidden;
+}
+
+.accordion-editor__title {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	padding: 0.875rem 1rem;
+	font-weight: 600;
+	background: #e2e8f0;
+	border-bottom: 1px solid #d0d7de;
+}
+
+.accordion-editor__title-text {
+	flex: 1 1 auto;
+}
+
+.accordion-editor__panel {
+	padding: 1rem;
+	background: #fff;
+}
